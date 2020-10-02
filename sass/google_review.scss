@@ -52,7 +52,7 @@
 .g_r_list {
     float: left;
     border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
+    padding-bottom: 12px;
     width: 100%;
 
     ul {
@@ -70,7 +70,7 @@
             text-overflow: ellipsis;
             white-space: nowrap;
             border-radius: 16px;
-            margin: 0 8px 0 0;
+            margin: 0 8px 8px 0;
             padding: 7px 12px;
             border: 1px solid #dadce0;
             color: #3c4043;
@@ -126,6 +126,32 @@
                     color: #1a0dab;
                     cursor: pointer;
                     padding-left: 3px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 840px){
+    .g_r_rating {
+        p {
+            &.g_r_total_reviews {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .google_reviews_header {
+        .col_50 {
+            width: 100%;
+            &.float_left {
+                float: left;
+
+                .g_r_write_review {
+                    float: left;
+                    margin-top: 20px;
                 }
             }
         }

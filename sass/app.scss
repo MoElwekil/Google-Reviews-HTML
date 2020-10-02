@@ -11,12 +11,20 @@ body {
 		width: 100%;
 
 		.inner {
-			width: calc(100% - 80px);
+			width: calc(100% - 100px);
 			padding: 40px 50px;
 			background-color: #fff;
 			box-shadow: 0 2px 4px #d5d5d5;
-			margin-top: 40px;
 		}
 
+	}
+
+	@media screen and (max-width: 680px){
+		#google_reviews {
+			.inner {
+				width: calc(100% - 40px);
+				padding: 20px;
+			}
+		}
 	}
 } // body
