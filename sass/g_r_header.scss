@@ -1,0 +1,128 @@
+.google_reviews_header {
+    .g_r_header{
+        h1 {
+            font-size: 28px;
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 3px;
+        }
+
+        p {
+            font-size: 13px;
+            color: #999;
+        }
+    }
+
+    .g_r_write_review {
+        background-color: #4d90fe;
+        width: 112px;
+        padding: 7px 10px;
+        float: right;
+        border: 1px solid #3079ed;
+        color: #fff;
+        font-weight: bold;
+        font-size: 11px;
+    }
+}
+
+.g_r_rating {
+    padding: 15px 0 17px;
+
+    p {
+        &.g_r_number {
+            font-size: 32px;
+            margin-right: 11px;
+            color: #70757a;
+            white-space: nowrap;
+        }
+
+        &.g_r_total_reviews {
+            color: #878787;
+            font-size: 15px;
+            margin-left: 11px;
+        }
+    }
+}
+
+.g_r_list {
+    float: left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    width: 100%;
+
+    ul {
+        float: left;
+        list-style: none;
+
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0;
+        li {
+            display: inline-block;
+            font-size: 14px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            border-radius: 16px;
+            margin: 0 8px 0 0;
+            padding: 7px 12px;
+            border: 1px solid #dadce0;
+            color: #3c4043;
+        }
+    }
+}
+
+.google_reviews_body {
+    float: left;
+    width: 100%;
+    height: 750px;
+    overflow-y: scroll;
+
+    .g_r_comment {
+        margin-top: 28px;
+        cursor: pointer;
+        float: left;
+
+        .reviewer_img {
+            width: 47px;
+        }
+    
+        .reviewer_name {
+            font-size: 13px;
+            font-weight: bold;
+            color: #000;
+        }
+    
+        .reviewer_count {
+            color: #999;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+    
+        .reviewer_position {
+            font-size: 13px;
+            color: #5f6368;
+            margin-bottom: 12px;
+            b {
+                color: #333;
+                white-space: nowrap;
+                font-size: 13px;
+            }
+        }
+    
+        .g_r_comment_body {
+            p {
+                font-size: 13px;
+                color: #222;
+                line-height: 15px;
+    
+                .more {
+                    color: #1a0dab;
+                    cursor: pointer;
+                    padding-left: 3px;
+                }
+            }
+        }
+    }
+}

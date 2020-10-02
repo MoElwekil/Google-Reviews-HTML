@@ -1,0 +1,15 @@
+.g_r_full_star {
+    background-image: url('../img/star.png');
+
+    &.large {
+        background-size: 22px;
+        height: 22px;
+        width: 22px;
+    }
+
+    &.small {
+        background-size: 13px;
+        height: 13px;
+        width: 13px;
+    }
+}
