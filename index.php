@@ -44,7 +44,7 @@
 					<div class="col_50 float_left">
 						<div class="g_r_write_review">
 							<div class="pen_icon"></div>
-							<img src="img/pen.png" alt="pen" class="pen float_left">
+							<img src="https://cycle-legal.co.uk/wp-content/uploads/2020/10/pen.png" alt="pen" class="pen float_left">
 							<p class="display_inline_block">Write a review</p>
 						</div>
 					</div><!-- col 50 -->
